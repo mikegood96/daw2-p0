@@ -7,10 +7,11 @@ Para la creación de este registro y login, ya que se permitía cualquier framew
 Descargar proyecto (en /laragon/www/), abrir terminal, situarse en el proyecto y ejecutar:
 
     composer install && npm install
+    npm run dev
 
 Configurar la base de datos en el archivo .env: 
 <ul>
-    <li> Copiar .env.example en la misma ruta, renombrar por .env </li>
+    <li>Copiar .env.example en la misma ruta, renombrar por .env </li>
     <li>Crear una nueva base de datos y establecer el nombre en el archivo .env (DB_DATABASE)</li>
     <li>ejecutar: </li>
 
